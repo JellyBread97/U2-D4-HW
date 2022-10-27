@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  max-width: 100%;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.container ul {
+  display: flex;
+}
+
+i {
+  color: rgb(100, 99, 99);
+}
+
+.container ul li {
+  font-family: Arial;
+  font-weight: 600;
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.image1 > img {
+  height: 50px;
+  width: 50px;
+  margin-left: 2rem;
+}
+
+.images {
+  display: flex;
+  margin-left: auto;
+  gap: 15px;
+}
+
+.images > .image2 > img {
+  background-color: rgb(244, 243, 243);
+  border-radius: 50%;
+  padding: 1.9rem;
+  height: 30px;
+  width: 30px;
+  position: relative;
+}
+
+.images > .image3 > img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 2rem;
+}
+
+.dots > .dot1 {
+  background-color: #7550fe;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  right: 132px;
+  border: 5px solid white;
+}
+
+.dots > .dot2 {
+  background-color: #1acb98;
+  border-radius: 50%;
+  position: absolute;
+  top: 69px;
+  right: 30px;
+  border: 5px solid white;
+}
+
+.container2 {
+  background-color: #7550fe;
+  display: flex;
+}
+
+.inner-container {
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+.image4 {
+  margin-left: 20rem;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 2.4rem;
+}
+
+.container2 p {
+  color: #bca8ff;
+  font-family: "Arial";
+  text-align: center;
+  font-size: 18px;
+  text-align: left;
+}
+
+.button {
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 20px;
+}
+
+.button1 {
+  color: white;
+  background-color: #1acb98;
+}
+
+.button2 {
+  background-color: white;
+}
+
+.inner-container3 {
+  font-family: Arial;
+  font-size: 17px;
+  justify-content: center;
+  gap: 9rem;
+}
+
+.img-specifications {
+  background-color: rgb(247, 230, 207);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0.9rem;
+  margin-top: 25px;
+  margin-right: 16px;
+}
+
+.chevron-left {
+  position: relative;
+  top: 19rem;
+  left: 11rem;
+  border-radius: 50%;
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  padding: 1rem;
+}
+
+.inner-container4-part1 {
+  flex-direction: column;
+  margin-left: 13rem;
+}
+
+.inner-container4-part2 {
+  flex-direction: column;
+  margin-top: 8.1rem;
+}
+
+.inner-container4-part3 {
+  flex-direction: column;
+  margin-top: 8.1rem;
+}
+
+.inner-container4-part4 {
+  flex-direction: column;
+  margin-top: 8.1rem;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card-container-2 {
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.inner-container4-part1 h3 {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.wrapper-3 {
+  align-items: center;
+}
+
+.wrapper-3 .avatar-5 {
+  border-radius: 50%;
+  height: 25px;
+  width: 15px;
+  flex-grow: 1;
+}
+
+.fa-star {
+  margin-top: 1.1rem;
+  border-color: gold;
+}
+
+.wrapper-3 p {
+  flex-grow: 2;
+}
+
+.wrapper-3 .bookmark {
+  margin-right: 9px;
+  height: 15px;
+  width: 15px;
+  flex-grow: 1;
+}
+
+.chevron-right {
+  position: relative;
+  top: 19rem;
+  left: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  padding: 1rem;
+}
+
+.container6 {
+  flex-direction: column;
+}
+
+.footer {
+  margin-top: 3rem;
+}
+
+.footer p {
+  flex-grow: 1;
+  margin-left: 18rem;
+}
+
+.unolist {
+  list-style-type: none;
+  margin-right: 14rem;
+  gap: 18px;
+}
+
+/* Reusable Components */
+
+.display-flex {
+  display: flex;
+}
+
+.part-margins {
+  margin-top: 12px;
+}
+
+.gray-color {
+  color: gray;
+}
+
+.part-line-ht {
+  line-height: 17pt;
+}
+
+.gray-bg {
+  background-color: #f6f2f2;
+}
+
+.font-bold {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.margin-value {
+  margin-left: 15px;
+}
+
+.yellow-color {
+  color: gold;
+}
+
+.linethrough-class {
+  text-decoration: line-through;
+}
+
+.font-thickness {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.course-specifications {
+  height: 135px;
+  width: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.gap {
+  gap: 23px;
+  background-color: #f6f2f2;
+}
+
+.wrapper-avatar-specifications {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
